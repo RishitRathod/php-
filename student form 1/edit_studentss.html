@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="edit_student.php" method="post">
+        <h1>Student Form</h1>
+        <label for="name">Enter name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+    
+        <label for="sem">Enter sem:</label>
+        <input type="text" name="sem" id="sem"><br><br>
+    
+        <label for="email">Enter email:</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="cgpa">Enter cgpa:</label>
+        <input type="text" name="cgpa" id="cgpa"><br><br>
+
+      <div>
+        Select department: <br>
+        <input type="radio" id="ICT" name="fav_language" value="ICT">      
+        <label for="ICT">ICT</label><br>
+        <input type="radio" id="IT" name="fav_language" value="IT">
+        <label for="IT">IT</label><br>
+        <input type="radio" id="CE" name="fav_language" value="CE">
+        <label for="CE">CE</label>
+      </div>
+
+      <label for="date">select dob:</label>
+      <input type="date" name="date" id="date"><br><br>
+
+
+      <input type="submit" name="Update" id="save" value="Save">
+      <input type="submit" name="Cancel" id="cancel" value="Cancel">
+
+    </form>
+    
+</body>
+</html>
