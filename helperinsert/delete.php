@@ -39,6 +39,6 @@ function deleteData($table, $conditions) {
     $con->close();
 }
 
-?>
+
 
 
